@@ -1,0 +1,113 @@
+.header {
+    height: 80px;
+    display: flex;
+    margin-top: 30px;
+}
+.logo {
+    width: 128px;
+    height: 29px;
+    color: #1C2A39;
+    margin-top: 27px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 150px;
+    
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 257px;
+    width: 500px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+}
+.user, .search, .shop_bag {
+    margin-left: 50px;
+    height: 18px;
+    width: 28px;
+    margin-top: 40px;
+    outline: none;
+    background: white;
+    border: 0;
+}
+.user {
+    margin-left: 202px;
+}
+.user, .search, .shop_bag, .navigation a, .promo-1 {
+    cursor: pointer;
+}
+.background-karusel {
+    width: 1307px;
+    height: 960px; 
+    
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slider__dots {
+    display: flex;
+    justify-content: center;
+    
+    position: absolute;
+    height: 15px;
+    width: 100%;
+    top: 900px;
+    
+    
+}
+  
+.slider__dots-item {
+    width: 10px;
+    height: 10px;
+    background: #8d17174d;
+    ;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.slider__dots-item:hover, .slider__dots-item.active {
+    background: rgb(197, 27, 27);
+  }
+.slider {
+    background-image: src("images/banner.png");
+    background-size: cover;
+    height: 950px;
+    width: 100%;
+    display: flex;
+    
+    
+}
+.image {
+    height: 756px;
+    width: 1179px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+/*.background-karusel {
+    display: none;
+}*/
+.promo-1 {
+    width: 250px;
+    height: 316px;
+    display: flex;
+    position: absolute;
+    margin-top: 141px;
+    margin-left: 1353px;
+}
+.promo-2 {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 316px;
+    margin-top: 500px;
+    margin-left: 1440px;
+}
+.list {
+    background-image: url("images/bg.png");
+    height: 700px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 0px;
+}
